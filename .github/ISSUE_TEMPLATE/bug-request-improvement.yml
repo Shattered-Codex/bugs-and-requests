@@ -23,24 +23,6 @@ body:
         - improvement
     validations:
       required: true
-  - type: dropdown
-    id: priority
-    attributes:
-      label: Priority
-      options:
-        - Low
-        - Medium
-        - High
-    validations:
-      required: true
-  - type: input
-    id: environment
-    attributes:
-      label: Environment
-      description: Where this occurs and relevant version/build info.
-      placeholder: e.g., production, staging, or local
-    validations:
-      required: true
   - type: textarea
     id: summary
     attributes:
